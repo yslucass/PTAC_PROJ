@@ -1,0 +1,69 @@
+.home-container {
+  width: 100%;
+  height: 100%;
+}
+
+.home-banner {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url("https://images.unsplash.com/photo-1559339352-11d035aa65de")
+              center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.home-title {
+  font-size: 42px;
+  margin-bottom: 15px;
+  font-family: "Georgia", serif;
+}
+
+.home-subtitle {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.home-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 25px;
+  width: 260px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+.feature-card h2 {
+  color: #6d2d1c;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #444;
+  font-size: 16px;
+}
+
+.feature-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  cursor: pointer;
+}

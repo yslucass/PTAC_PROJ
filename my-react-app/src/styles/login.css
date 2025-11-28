@@ -1,0 +1,100 @@
+/* login.css - estilos para a página de login */
+
+.login-page {
+  min-height: calc(100vh - 80px); /* ajuste se tiver header com altura 80px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  background: linear-gradient(180deg, #f7f7f8 0%, #f0efee 100%); /* fundo neutro */
+  /* se usar imagem de fundo, ver dica mais abaixo */
+}
+
+/* O card branco central */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(32,32,32,0.12);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+/* título */
+.login-title {
+  margin: 0 0 18px 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Label e input */
+.form-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #444;
+  gap: 8px;
+}
+
+.form-input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d7d7d8;
+  font-size: 15px;
+  outline: none;
+  transition: box-shadow .15s ease, border-color .15s ease;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  border-color: #8b3a24; /* combinar com paleta do site */
+  box-shadow: 0 4px 14px rgba(139,58,36,0.08);
+  background: #fff;
+}
+
+/* Botão */
+.btn-submit {
+  margin-top: 6px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #8b3a24;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .07s ease, filter .07s ease;
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
+/* Mensagem responsiva */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .login-title {
+    font-size: 20px;
+  }
+}

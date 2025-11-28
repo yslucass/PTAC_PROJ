@@ -1,0 +1,45 @@
+.header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #ddd;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #6d2d1c;
+  font-family: "Georgia", serif;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #5a2b1e;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #c0392b;
+}
+
+.btn-reservas {
+  background-color: #8b3a24;
+  color: #ffffff !important;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-reservas:hover {
+  background-color: #a8442b;
+}

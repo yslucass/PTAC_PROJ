@@ -1,0 +1,63 @@
+.cm-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffffcc;
+  backdrop-filter: blur(5px);
+  border-radius: 14px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+.cm-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.cm-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.cm-field label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.cm-field input,
+.cm-field select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 15px;
+}
+
+.cm-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cm-btn {
+  padding: 12px 20px;
+  background: #4caf50;
+  border: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cm-btn:hover {
+  background: #45a049;
+}
+
+.cm-btn-clear {
+  background: #d9534f;
+}
+
+.cm-btn-clear:hover {
+  background: #c9302c;
+}
